@@ -1,0 +1,5 @@
+Handle instances where different images are served with srcset in html
+
+Give the option of returning a series of different sized compressed images or one compressed image of a specific size.
+
+ - as of now, the system does not have the ability to specify a size attribute. The only thing that can be edited is the level of compression.
