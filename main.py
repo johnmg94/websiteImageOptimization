@@ -6,10 +6,7 @@ from io import BytesIO
 from urllib.parse import urljoin, urlparse
 import re
 
-# Doesn't work on SVG's
-# Create output directory
-# Additional feature - have the system write the correct image extensions if applicable to the html files in question
-
+# Doesn't work on SVG's***
 # Directory to store downloaded images
 OUTPUT_DIR = "images"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
